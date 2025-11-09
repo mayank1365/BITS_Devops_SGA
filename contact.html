@@ -1,0 +1,59 @@
+<!-- File: contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - My WebApp</title>
+    <style>
+        body{margin:0;padding:40px;background:#f7f8fb;font-family:Inter,system-ui,Arial}
+        .card{background:#fff;padding:24px;border-radius:12px;box-shadow:0 6px 18px rgba(12,20,40,0.06);max-width:700px}
+        header{display:flex;justify-content:space-between;align-items:center}
+        nav a{margin-left:16px;text-decoration:none;color:#0b66ff}
+        form{display:flex;flex-direction:column}
+        input,textarea{padding:10px;margin-top:8px;border-radius:6px;border:1px solid #e2e8f0}
+        button{margin-top:12px;padding:10px;border-radius:6px;border:none;background:#0b66ff;color:#fff}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div><strong>My WebApp</strong></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <main style="margin-top:28px">
+        <div class="card">
+            <h1>Contact</h1>
+            <p>If this were a real site, you could use the form below. For the assignment, this static form is sufficient to show a contact page.</p>
+
+
+            <form onsubmit="alert('This is a static demo — no backend attached.'); return false;">
+                <label>Full name</label>
+                <input type="text" placeholder="Your name" required />
+
+
+                <label>Email</label>
+                <input type="email" placeholder="you@example.com" required />
+
+
+                <label>Message</label>
+                <textarea rows="5" placeholder="Your message"></textarea>
+
+
+                <button type="submit">Send</button>
+            </form>
+
+
+            <p style="margin-top:12px;color:#666">Author: MAYANK GUPTA — Student ID: 2023ebcs737</p>
+        </div>
+    </main>
+</body>
+
+</html>

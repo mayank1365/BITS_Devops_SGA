@@ -1,0 +1,65 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My WebApp - Home</title>
+    <style>
+        :root{font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+        body{margin:0;padding:40px;background:#f7f8fb;color:#111}
+        header{display:flex;justify-content:space-between;align-items:center}
+        nav a{margin-left:16px;text-decoration:none;color:#0b66ff}
+        .card{background:#fff;padding:24px;border-radius:12px;box-shadow:0 6px 18px rgba(12,20,40,0.06);max-width:900px}
+        footer{margin-top:28px;color:#666;font-size:14px}
+        .hero h1{margin:0 0 8px}
+        .small{font-size:14px;color:#555}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <strong>My WebApp</strong>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <main style="margin-top:28px">
+        <div class="card">
+            <section class="hero">
+                <h1>Welcome to My WebApp</h1>
+                <p class="small">A simple 3-page static website created for the DevOps Git & Docker assignment.</p>
+            </section>
+
+
+            <section style="margin-top:18px">
+                <h2>Project Summary</h2>
+                <p>This tiny site includes three HTML pages (index, about, contact). Use it to demonstrate Git commands and containerize it with Docker for the assignment submission.</p>
+                <p>Files included: <code>index.html</code>, <code>about.html</code>, <code>contact.html</code>.</p>
+            </section>
+
+
+            <section style="margin-top:18px">
+                <h3>How to preview locally</h3>
+                <ol>
+                    <li>Open <code>index.html</code> in any browser (double-click the file or serve via a static server).</li>
+                    <li>Commit these files into a git repo and follow the assignment steps.</li>
+                </ol>
+            </section>
+
+
+            <footer>
+                <div>Created by MAYANK GUPTA — Student ID: 2023ebcs737</div>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
